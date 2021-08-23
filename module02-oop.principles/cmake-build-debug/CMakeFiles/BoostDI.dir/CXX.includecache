@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/DEVEL/stage/tmp/dcl120/module02-oop.principles/BoostDI.cpp
+di.hpp
+C:/DEVEL/stage/tmp/dcl120/module02-oop.principles/di.hpp
+cstdio
+-
+iostream
+-
+memory
+-
+
+C:/DEVEL/stage/tmp/dcl120/module02-oop.principles/di.hpp
+__config
+-
+

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/chat.cpp
+iostream
+-
+string
+-
+vector
+-
+person.h
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/person.h
+chatroom.h
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/chatroom.h
+
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/chatroom.cpp
+person.h
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/person.h
+chatroom.h
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/chatroom.h
+algorithm
+-
+
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/chatroom.h
+
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/person.cpp
+person.h
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/person.h
+chatroom.h
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/chatroom.h
+
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/person.h
+string
+-
+iostream
+-
+vector
+-
+

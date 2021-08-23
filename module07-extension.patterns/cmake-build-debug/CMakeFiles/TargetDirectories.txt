@@ -1,0 +1,6 @@
+C:/DEVEL/stage/tmp/dcl120/module07-extension.patterns/cmake-build-debug/CMakeFiles/decorator.dir
+C:/DEVEL/stage/tmp/dcl120/module07-extension.patterns/cmake-build-debug/CMakeFiles/iterator1.dir
+C:/DEVEL/stage/tmp/dcl120/module07-extension.patterns/cmake-build-debug/CMakeFiles/iterator2.dir
+C:/DEVEL/stage/tmp/dcl120/module07-extension.patterns/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/DEVEL/stage/tmp/dcl120/module07-extension.patterns/cmake-build-debug/CMakeFiles/visitor1.dir
+C:/DEVEL/stage/tmp/dcl120/module07-extension.patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+D:\opt\jetbrains-toolbox\apps\CLion\ch-0\201.7223.86\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\lazy-loading.dir/objects.a
+D:\DEVEL\stage\mingw64\bin\ar.exe cr CMakeFiles\lazy-loading.dir/objects.a @CMakeFiles\lazy-loading.dir\objects1.rsp
+D:\DEVEL\stage\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\lazy-loading.dir/objects.a -Wl,--no-whole-archive  -o lazy-loading.exe -Wl,--out-implib,liblazy-loading.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lazy-loading.dir\linklibs.rsp

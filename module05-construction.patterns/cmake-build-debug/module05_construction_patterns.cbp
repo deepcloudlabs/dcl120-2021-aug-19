@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="module05_construction_patterns"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="composite-person">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/composite-person.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 composite-person"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="composite-person/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/composite-person.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 composite-person/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prototype">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/prototype.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 prototype"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prototype/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/prototype.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 prototype/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="point">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/point.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 point"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="point/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/point.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 point/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inner-factory">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/inner-factory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 inner-factory"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inner-factory/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/inner-factory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 inner-factory/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factory-exercise">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/factory-exercise.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 factory-exercise"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factory-exercise/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/factory-exercise.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 factory-exercise/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factory">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/factory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 factory"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factory/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/factory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 factory/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memento">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/memento.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 memento"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memento/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/memento.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 memento/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="abstract-factory">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/abstract-factory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstract-factory"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="abstract-factory/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/abstract-factory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstract-factory/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/abstract-factory/AbstractFactory.cpp">
+			<Option target="abstract-factory"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/abstract-factory/Factory.cpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/abstract-factory/FactoryExercise.cpp">
+			<Option target="factory-exercise"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/abstract-factory/InnerFactory.cpp">
+			<Option target="inner-factory"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/Person.cpp">
+			<Option target="composite-person"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/Person.h">
+			<Option target="composite-person"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonAddressBuilder.h">
+			<Option target="composite-person"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonBuilder.cpp">
+			<Option target="composite-person"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonBuilder.h">
+			<Option target="composite-person"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonJobBuilder.h">
+			<Option target="composite-person"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/composite-person.cpp">
+			<Option target="composite-person"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/factory-method/point.cpp">
+			<Option target="point"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/memento/memento.cpp">
+			<Option target="memento"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/prototype/Prototype.cpp">
+			<Option target="prototype"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

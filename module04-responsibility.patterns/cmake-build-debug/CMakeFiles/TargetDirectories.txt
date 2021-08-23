@@ -1,0 +1,9 @@
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/CMakeFiles/stock-market.dir
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/CMakeFiles/classical_singleton.dir
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/CMakeFiles/lazy-loading.dir
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/CMakeFiles/chat.dir
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/CMakeFiles/object-caching.dir
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/CMakeFiles/soccer.dir
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/CMakeFiles/image-decoder.dir
+C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir

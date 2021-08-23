@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="module04_responsibility_patterns"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stock-market">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/stock-market.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 stock-market"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stock-market/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/stock-market.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 stock-market/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="classical_singleton">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/classical_singleton.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 classical_singleton"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="classical_singleton/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/classical_singleton.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 classical_singleton/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lazy-loading">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/lazy-loading.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 lazy-loading"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lazy-loading/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/lazy-loading.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 lazy-loading/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/chat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 chat"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/chat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 chat/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="object-caching">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/object-caching.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 object-caching"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="object-caching/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/object-caching.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 object-caching/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soccer">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/soccer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 soccer"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soccer/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/soccer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 soccer/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image-decoder">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/image-decoder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 image-decoder"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image-decoder/fast">
+				<Option output="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/image-decoder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/boost_1_73_0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\devel\stage\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 image-decoder/fast"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/mingw64/bin/mingw32-make.exe -f &quot;C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/chain.of.responsibility/image-decoder.cpp">
+			<Option target="image-decoder"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/flyweight/object-caching.cpp">
+			<Option target="object-caching"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/chat.cpp">
+			<Option target="chat"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/chatroom.cpp">
+			<Option target="chat"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/chatroom.h">
+			<Option target="chat"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/person.cpp">
+			<Option target="chat"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/person.h">
+			<Option target="chat"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/mediator/soccer.cpp">
+			<Option target="soccer"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/observer/stock-market.cpp">
+			<Option target="stock-market"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/proxy/lazy.loading.cpp">
+			<Option target="lazy-loading"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/singleton/classical_singleton.cpp">
+			<Option target="classical_singleton"/>
+		</Unit>
+		<Unit filename="C:/DEVEL/stage/tmp/dcl120/module04-responsibility.patterns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

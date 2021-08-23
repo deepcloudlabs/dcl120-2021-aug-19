@@ -1,0 +1,9 @@
+C:/DEVEL/stage/tmp/dcl120/module06-operation.patterns/cmake-build-debug/CMakeFiles/command.dir
+C:/DEVEL/stage/tmp/dcl120/module06-operation.patterns/cmake-build-debug/CMakeFiles/template-method.dir
+C:/DEVEL/stage/tmp/dcl120/module06-operation.patterns/cmake-build-debug/CMakeFiles/msm.dir
+C:/DEVEL/stage/tmp/dcl120/module06-operation.patterns/cmake-build-debug/CMakeFiles/strategy.dir
+C:/DEVEL/stage/tmp/dcl120/module06-operation.patterns/cmake-build-debug/CMakeFiles/state.dir
+C:/DEVEL/stage/tmp/dcl120/module06-operation.patterns/cmake-build-debug/CMakeFiles/interpreter.dir
+C:/DEVEL/stage/tmp/dcl120/module06-operation.patterns/cmake-build-debug/CMakeFiles/handmade-state.dir
+C:/DEVEL/stage/tmp/dcl120/module06-operation.patterns/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/DEVEL/stage/tmp/dcl120/module06-operation.patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir

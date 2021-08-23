@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/Person.h
+string
+-
+iostream
+-
+
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonAddressBuilder.h
+string
+-
+
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonBuilder.h
+Person.h
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/Person.h
+
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonJobBuilder.h
+PersonBuilder.h
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonBuilder.h
+
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/composite-person.cpp
+iostream
+-
+PersonBuilder.h
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonBuilder.h
+PersonJobBuilder.h
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonJobBuilder.h
+PersonAddressBuilder.h
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/PersonAddressBuilder.h
+Person.h
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/builder/Person.h
+

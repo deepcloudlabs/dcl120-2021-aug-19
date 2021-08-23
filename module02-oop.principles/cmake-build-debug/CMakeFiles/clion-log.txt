@@ -1,0 +1,5 @@
+D:\opt\jetbrains-toolbox\apps\CLion\ch-0\201.7223.86\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\DEVEL\stage\tmp\dcl120\module02-oop.principles
+-- Configuring done
+WARNING: Target "SRP" requests linking to directory "D:/DEVEL/stage/opt/boost_1_73_0/stage/lib".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: C:/DEVEL/stage/tmp/dcl120/module02-oop.principles/cmake-build-debug

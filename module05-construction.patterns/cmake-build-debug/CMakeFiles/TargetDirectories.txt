@@ -1,0 +1,10 @@
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/CMakeFiles/composite-person.dir
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/CMakeFiles/prototype.dir
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/CMakeFiles/point.dir
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/CMakeFiles/inner-factory.dir
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/CMakeFiles/factory-exercise.dir
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/CMakeFiles/factory.dir
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/CMakeFiles/memento.dir
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/CMakeFiles/abstract-factory.dir
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/DEVEL/stage/tmp/dcl120/module05-construction.patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir
