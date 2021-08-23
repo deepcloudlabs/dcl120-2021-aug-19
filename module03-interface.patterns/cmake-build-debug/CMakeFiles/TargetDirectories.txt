@@ -1,0 +1,6 @@
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/module03-interface.patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/module03-interface.patterns/cmake-build-debug/CMakeFiles/module03_interface_patterns-facade.dir
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/module03-interface.patterns/cmake-build-debug/CMakeFiles/module03_interface_patterns-adapter.dir
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/module03-interface.patterns/cmake-build-debug/CMakeFiles/module03_interface_patterns-composite.dir
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/module03-interface.patterns/cmake-build-debug/CMakeFiles/module03_interface_patterns-bridge.dir
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/module03-interface.patterns/cmake-build-debug/CMakeFiles/edit_cache.dir

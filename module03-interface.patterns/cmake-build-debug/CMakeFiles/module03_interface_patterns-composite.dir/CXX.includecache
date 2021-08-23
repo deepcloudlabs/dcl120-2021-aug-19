@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/module03-interface.patterns/study-composite-pattern.cpp
+iostream
+-
+vector
+-
+memory
+-
+

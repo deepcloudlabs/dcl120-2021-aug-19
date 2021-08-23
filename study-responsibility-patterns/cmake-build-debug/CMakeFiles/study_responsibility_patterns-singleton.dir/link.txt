@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/study_responsibility_patterns-singleton.dir/study-singleton-pattern.cpp.o -o study_responsibility_patterns-singleton.exe -Wl,--out-implib,libstudy_responsibility_patterns-singleton.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

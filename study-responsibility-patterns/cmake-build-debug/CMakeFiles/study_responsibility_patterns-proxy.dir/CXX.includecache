@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/study-responsibility-patterns/study-proxy-pattern.cpp
+iostream
+-
+memory
+-
+

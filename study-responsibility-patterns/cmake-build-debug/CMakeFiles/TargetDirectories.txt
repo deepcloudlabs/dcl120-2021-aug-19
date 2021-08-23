@@ -1,0 +1,4 @@
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/study-responsibility-patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/study-responsibility-patterns/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/study-responsibility-patterns/cmake-build-debug/CMakeFiles/study_responsibility_patterns-singleton.dir
+/cygdrive/d/var/workspace/dcl/dcl120/2021/aug19/study-responsibility-patterns/cmake-build-debug/CMakeFiles/study_responsibility_patterns-proxy.dir
